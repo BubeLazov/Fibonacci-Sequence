@@ -118,15 +118,8 @@ basic.forever(function () {
         # . # . #
         # . # # #
         `)
-    basic.pause(500)
+    basic.pause(200)
     basic.clearScreen()
-    basic.showLeds(`
-        # # # # #
-        # . . . #
-        # . # . #
-        # . # . #
-        # . # # #
-        `)
     basic.showLeds(`
         # # # # #
         # . . . #
@@ -239,4 +232,6 @@ basic.forever(function () {
         . . . . .
         # . . . .
         `)
+    basic.clearScreen()
+    basic.pause(200)
 })
